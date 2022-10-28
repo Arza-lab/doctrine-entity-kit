@@ -2,11 +2,12 @@
 
 namespace Arza\Doctrine\EntityKit\Traits;
 
+use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 
 trait ExtendableTrait
 {
-    #[ORM\Column(name: 'extension', type: 'json', nullable: true)]
+    #[ORM\Column(name: 'extension', type: Types::JSON, nullable: true)]
     protected ?array $extension = null;
 
     public function getExtension(): ?array

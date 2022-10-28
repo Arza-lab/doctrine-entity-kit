@@ -1,0 +1,22 @@
+{
+  "name": "arza/doctrine-entity-kit",
+  "description": "A simple kit to simplify the creation of Doctrine entities",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Maurice Schwarz",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1.0",
+    "doctrine/orm": "^2.13",
+    "symfony/uid": "6.1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Arza\\Doctrine\\EntityKit\\": "src/"
+    }
+  }
+}

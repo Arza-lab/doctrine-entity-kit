@@ -1,12 +1,12 @@
 {
   "name": "arza/doctrine-entity-kit",
-  "description": "A simple kit to simplify the creation of Doctrine entities",
+  "description": "A kit to simplify the creation of Doctrine entities",
   "minimum-stability": "dev",
   "license": "MIT",
   "authors": [
     {
       "name": "Maurice Schwarz",
-      "email": "email@example.com"
+      "email": "maurice.schwarz.dev@gmail.com"
     }
   ],
   "require": {

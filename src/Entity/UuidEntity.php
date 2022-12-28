@@ -8,7 +8,7 @@ use Arza\Doctrine\EntityKit\Traits\UuidTrait;
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\HasLifecycleCallbacks]
-class UuidEntity
+abstract class UuidEntity
 {
     use UuidTrait;
 

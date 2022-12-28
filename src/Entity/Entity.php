@@ -8,7 +8,7 @@ use Arza\Doctrine\EntityKit\Traits\TimestampAbleTrait;
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\HasLifecycleCallbacks]
-class Entity
+abstract class Entity
 {
     use IdentifierTrait;
 
